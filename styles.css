@@ -11,6 +11,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
+
+  /* position: relative; */
 }
 
 /* MAIN CARD SECTION */
@@ -30,6 +32,7 @@ body {
 
 .personal {
   background-color: #ffffff;
+  padding-bottom: 1em;
 }
 
 .personal .victor {
@@ -46,6 +49,7 @@ h1 {
 h1 span {
   font-weight: 400;
   color: #6b7082;
+  margin-left: 0.3em;
 }
 
 h2 {
@@ -70,6 +74,14 @@ h2 {
   border-top: 1px solid #e8e9ec;
 }
 
+.followers {
+  padding-left: 3rem;
+}
+
+.photos {
+  padding-right: 3rem;
+}
+
 .property {
   display: flex;
   flex-direction: column;
@@ -79,6 +91,7 @@ h2 {
   letter-spacing: 0.15em;
   padding-top: 0.8em;
 }
+/* CIRCLES */
 
 .gradient-top {
   z-index: -10;
@@ -93,7 +106,7 @@ h2 {
   left: -31.5%;
 }
 
-.gradient-bottom {
+.bottom {
   z-index: -10;
   position: absolute;
   background-image: url("images/bg-pattern-bottom.svg");
@@ -104,5 +117,4 @@ h2 {
   height: 100%;
   bottom: -50%;
   right: -31%;
-  overflow: hidden;
 }
