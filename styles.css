@@ -6,16 +6,18 @@
 
 body {
   background-color: #19a1ae;
+}
+
+/* MAIN CARD SECTION */
+
+.page {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
-
-  /* position: relative; */
+  position: relative;
 }
-
-/* MAIN CARD SECTION */
 
 .container {
   display: flex;
