@@ -25,6 +25,7 @@ body {
   align-items: center;
   text-align: center;
   overflow: hidden;
+  min-width: 30rem;
   border-radius: 20px;
   margin-right: 2.5rem;
   margin-left: 2.5rem;
